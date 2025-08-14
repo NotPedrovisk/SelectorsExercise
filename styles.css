@@ -1,10 +1,10 @@
-body {
+/* body {
   font: 1.2em / 1.5 sans-serif;
 }
-/* Add styles here */
+Add styles here */
 
 
-/*task 1*/
+/* task 1
 h1 {
     color: blue;
 }
@@ -19,7 +19,7 @@ span{
 }
 
 /*task 2 */
-
+/* 
 #special{
     background-color: yellow;
 }
@@ -34,4 +34,45 @@ span{
 
 .alert.go{
     background-color: green;
+}  */
+  
+
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+td,
+th {
+  padding: 0.2em;
+  text-align: left;
+}
+
+a:link{
+    color:orange
+}
+a:visited{
+    color:green
+}
+a:hover{
+    text-decoration: none;
+}
+
+.container p:first-child{
+    font-size: 150%;
+}
+.container::first-line{
+    color: red;
+}
+
+tr:nth-child(even){
+    background-color: #333333;
+    color:white;
 }
